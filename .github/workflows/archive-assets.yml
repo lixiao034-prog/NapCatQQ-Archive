@@ -1,0 +1,71 @@
+name: Preserve release assets
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SOURCE: XingYunStar/NapCatQQ
+      DESTINATION: ${{ github.repository }}
+    steps:
+      - name: Copy unchanged release assets and verify checksums
+        shell: python
+        run: |
+          import concurrent.futures, hashlib, json, os, pathlib, subprocess, time, urllib.request
+          source, destination = os.environ['SOURCE'], os.environ['DESTINATION']
+          def api(path):
+              return json.loads(subprocess.check_output(['gh', 'api', path]))
+          releases = api('repos/' + source + '/releases?per_page=100')
+          targets = api('repos/' + destination + '/releases?per_page=100')
+          manifest = []
+          jobs = []
+          for release in releases:
+              target = next(r for r in targets if r['tag_name'] == release['tag_name'])
+              jobs.extend((release, target, a) for a in release['assets'])
+          def copy(job):
+              release, target, asset = job
+              tag, name, expected = release['tag_name'], asset['name'], asset.get('digest')
+              existing = next((a for a in target['assets'] if a['name'] == name), None)
+              if existing and existing['size'] == asset['size'] and existing.get('digest') == expected:
+                  return {'tag': tag, 'name': name, 'bytes': existing['size'], 'sha256': expected, 'source': asset['browser_download_url'], 'archive': existing['browser_download_url']}
+              if existing:
+                  subprocess.run(['gh', 'api', '-X', 'DELETE', 'repos/' + destination + '/releases/assets/' + str(existing['id'])], check=True)
+              folder = pathlib.Path('assets') / tag
+              folder.mkdir(parents=True, exist_ok=True)
+              path = folder / name
+              for attempt in range(3):
+                  try:
+                      request = urllib.request.Request(asset['browser_download_url'], headers={'User-Agent': 'NapCat-history-archive'})
+                      with urllib.request.urlopen(request, timeout=120) as response, path.open('wb') as output:
+                          while block := response.read(1024 * 1024):
+                              output.write(block)
+                      assert path.stat().st_size == asset['size'], 'Size mismatch: ' + name
+                      with path.open('rb') as stream:
+                          digest = 'sha256:' + hashlib.file_digest(stream, 'sha256').hexdigest()
+                      assert not expected or digest == expected, 'SHA256 mismatch: ' + name
+                      subprocess.run(['gh', 'release', 'upload', tag, str(path), '--repo', destination], check=True)
+                      uploaded = next(a for a in api('repos/' + destination + '/releases/' + str(target['id']) + '/assets?per_page=100') if a['name'] == name)
+                      assert uploaded['size'] == asset['size'] and uploaded.get('digest') == digest
+                      print('VERIFIED', tag, name, asset['size'], flush=True)
+                      path.unlink()
+                      return {'tag': tag, 'name': name, 'bytes': uploaded['size'], 'sha256': digest, 'source': asset['browser_download_url'], 'archive': uploaded['browser_download_url']}
+                  except Exception as error:
+                      print('RETRY', tag, name, attempt + 1, type(error).__name__, flush=True)
+                      if attempt == 2:
+                          raise
+                      time.sleep(5)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+              manifest = list(pool.map(copy, jobs))
+          pathlib.Path('archive-assets.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          import base64
+          data = {'message': 'docs: record verified release asset checksums', 'content': base64.b64encode(pathlib.Path('archive-assets.json').read_bytes()).decode()}
+          try:
+              data['sha'] = api('repos/' + destination + '/contents/archive-assets.json')['sha']
+          except subprocess.CalledProcessError:
+              pass
+          subprocess.run(['gh', 'api', '-X', 'PUT', 'repos/' + destination + '/contents/archive-assets.json', '--input', '-'], input=json.dumps(data).encode(), check=True, stdout=subprocess.DEVNULL)
+          print('COMPLETE', len(manifest), 'assets', sum(a['bytes'] for a in manifest), 'bytes', flush=True)
