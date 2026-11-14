@@ -1,0 +1,242 @@
+[
+  {
+    "tag": "v4.18.42",
+    "name": "napcat-docker-v4.18.42-amd64.tar",
+    "bytes": 612216320,
+    "sha256": "sha256:85e3fd02b58fd836a0177734b6ff77a896000bcfcf209b3b200d7e8b8452df7c",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.42/napcat-docker-v4.18.42-amd64.tar",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.42/napcat-docker-v4.18.42-amd64.tar"
+  },
+  {
+    "tag": "v4.18.42",
+    "name": "napcat-docker-v4.18.42-amd64.tar.sha256",
+    "bytes": 99,
+    "sha256": "sha256:872de741fa04fcfaa04802dc54ec7ba23fedf58263100f95b43314a7cc59f6f8",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.42/napcat-docker-v4.18.42-amd64.tar.sha256",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.42/napcat-docker-v4.18.42-amd64.tar.sha256"
+  },
+  {
+    "tag": "v4.18.42",
+    "name": "napcat-docker-v4.18.42-arm64.tar",
+    "bytes": 597573632,
+    "sha256": "sha256:0d14594844e9135c760e710754a8778d98649de2ca837fce5a61b69b7d39954d",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.42/napcat-docker-v4.18.42-arm64.tar",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.42/napcat-docker-v4.18.42-arm64.tar"
+  },
+  {
+    "tag": "v4.18.42",
+    "name": "napcat-docker-v4.18.42-arm64.tar.sha256",
+    "bytes": 99,
+    "sha256": "sha256:5d2a1ac826071ab1f8b7df0b0ad5ee619c83e097fc1bb4120aae4d8e7743f0e0",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.42/napcat-docker-v4.18.42-arm64.tar.sha256",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.42/napcat-docker-v4.18.42-arm64.tar.sha256"
+  },
+  {
+    "tag": "v4.18.42",
+    "name": "NapCat.Framework.zip",
+    "bytes": 36823348,
+    "sha256": "sha256:118d66bb4849b7fcec05a4cafc9e33ed44f9236d56661f7097aba2ab3081df2e",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.42/NapCat.Framework.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.42/NapCat.Framework.zip"
+  },
+  {
+    "tag": "v4.18.42",
+    "name": "NapCat.Shell.Windows.Node.zip",
+    "bytes": 124162399,
+    "sha256": "sha256:77397ac38d66f46383e48f08f35d5f9d37ec575c22069f62d6c600e73b4521ed",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.42/NapCat.Shell.Windows.Node.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.42/NapCat.Shell.Windows.Node.zip"
+  },
+  {
+    "tag": "v4.18.42",
+    "name": "NapCat.Shell.Windows.OneKey.zip",
+    "bytes": 994134,
+    "sha256": "sha256:46c3ec155aa61f12e89bbf97013a21243d00b0019b5565992a88852d7627f39c",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.42/NapCat.Shell.Windows.OneKey.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.42/NapCat.Shell.Windows.OneKey.zip"
+  },
+  {
+    "tag": "v4.18.42",
+    "name": "NapCat.Shell.zip",
+    "bytes": 35967555,
+    "sha256": "sha256:02e5ff0f79916c1e04c81c1b4590056406fb4293f1f1300c955e71fd08b2829d",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.42/NapCat.Shell.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.42/NapCat.Shell.zip"
+  },
+  {
+    "tag": "v4.18.19",
+    "name": "napcat-docker-v4.18.19-amd64.tar",
+    "bytes": 597447680,
+    "sha256": "sha256:75856f54acdcd37ff94365ff998c481e08efe8d3d468341a71f19633bbab743c",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.19/napcat-docker-v4.18.19-amd64.tar",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.19/napcat-docker-v4.18.19-amd64.tar"
+  },
+  {
+    "tag": "v4.18.19",
+    "name": "napcat-docker-v4.18.19-amd64.tar.sha256",
+    "bytes": 99,
+    "sha256": "sha256:b4f367e0c2a2da23a9b39d0ff3d267d5afd748097babbc54febfe6ca82dd22fd",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.19/napcat-docker-v4.18.19-amd64.tar.sha256",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.19/napcat-docker-v4.18.19-amd64.tar.sha256"
+  },
+  {
+    "tag": "v4.18.19",
+    "name": "napcat-docker-v4.18.19-arm64.tar",
+    "bytes": 582874112,
+    "sha256": "sha256:ad2a1a2a4d4d5b75fa77c67c17159f7d31fd9b392d1b114435c26b27e65ed54d",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.19/napcat-docker-v4.18.19-arm64.tar",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.19/napcat-docker-v4.18.19-arm64.tar"
+  },
+  {
+    "tag": "v4.18.19",
+    "name": "napcat-docker-v4.18.19-arm64.tar.sha256",
+    "bytes": 99,
+    "sha256": "sha256:92972dfb573fd84ffff0a381270893225b33867f1ed7c2554726853ac3603895",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.19/napcat-docker-v4.18.19-arm64.tar.sha256",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.19/napcat-docker-v4.18.19-arm64.tar.sha256"
+  },
+  {
+    "tag": "v4.18.19",
+    "name": "NapCat.Framework.zip",
+    "bytes": 30324179,
+    "sha256": "sha256:3750605bd0ef49f0f88751d69fa975dca70e4f65ced4c56fc74cf171ed433006",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.19/NapCat.Framework.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.19/NapCat.Framework.zip"
+  },
+  {
+    "tag": "v4.18.19",
+    "name": "NapCat.Shell.Windows.Node.zip",
+    "bytes": 117170705,
+    "sha256": "sha256:a08e7bebe49f656807f198bbf3a5d3f2fd6f840499728d665285323db4342d77",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.19/NapCat.Shell.Windows.Node.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.19/NapCat.Shell.Windows.Node.zip"
+  },
+  {
+    "tag": "v4.18.19",
+    "name": "NapCat.Shell.Windows.OneKey.zip",
+    "bytes": 1035630,
+    "sha256": "sha256:fa365537039e9ec29730166f3f624eb147074be18be64d1981a03f35ecb2a2af",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.19/NapCat.Shell.Windows.OneKey.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.19/NapCat.Shell.Windows.OneKey.zip"
+  },
+  {
+    "tag": "v4.18.19",
+    "name": "NapCat.Shell.zip",
+    "bytes": 29482717,
+    "sha256": "sha256:c5b7423d1d5b8c555d62cd9e4059b1908cc0986e7b5c85a0f450f4a8ed170acf",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.18.19/NapCat.Shell.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.18.19/NapCat.Shell.zip"
+  },
+  {
+    "tag": "v4.17.23",
+    "name": "napcat-docker-v4.17.23-fallback-v4.17.22-amd64.tar",
+    "bytes": 579110912,
+    "sha256": "sha256:8bdd01b0a0244bb5b9bad319731561c9c8c2702448f9f82235a7a46f1829d73a",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.17.23/napcat-docker-v4.17.23-fallback-v4.17.22-amd64.tar",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.17.23/napcat-docker-v4.17.23-fallback-v4.17.22-amd64.tar"
+  },
+  {
+    "tag": "v4.17.23",
+    "name": "napcat-docker-v4.17.23-fallback-v4.17.22-amd64.tar.sha256",
+    "bytes": 117,
+    "sha256": "sha256:a69b45848f95921acaae23291ef106d502e2ec0a43861b16023430bc8affac7e",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.17.23/napcat-docker-v4.17.23-fallback-v4.17.22-amd64.tar.sha256",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.17.23/napcat-docker-v4.17.23-fallback-v4.17.22-amd64.tar.sha256"
+  },
+  {
+    "tag": "v4.17.23",
+    "name": "NapCat.Framework.zip",
+    "bytes": 30256672,
+    "sha256": "sha256:3cd32d3aa91d2b2576032a9f6bb7a7fe260ae34758763eec90ae44a33ecea16b",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.17.23/NapCat.Framework.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.17.23/NapCat.Framework.zip"
+  },
+  {
+    "tag": "v4.17.23",
+    "name": "NapCat.Shell.Windows.Node.zip",
+    "bytes": 115036427,
+    "sha256": "sha256:632ca6d222d5cc249d79962908e94c13f1f8de15130cc64d0bedb8e76a62c0ed",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.17.23/NapCat.Shell.Windows.Node.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.17.23/NapCat.Shell.Windows.Node.zip"
+  },
+  {
+    "tag": "v4.17.23",
+    "name": "NapCat.Shell.Windows.OneKey.zip",
+    "bytes": 1035630,
+    "sha256": "sha256:fa365537039e9ec29730166f3f624eb147074be18be64d1981a03f35ecb2a2af",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.17.23/NapCat.Shell.Windows.OneKey.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.17.23/NapCat.Shell.Windows.OneKey.zip"
+  },
+  {
+    "tag": "v4.17.23",
+    "name": "NapCat.Shell.zip",
+    "bytes": 29634887,
+    "sha256": "sha256:fca52ef473d8289a17c636d60e2a1ec75808c5ec4c4f84ff768c0d285278cc9f",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.17.23/NapCat.Shell.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.17.23/NapCat.Shell.zip"
+  },
+  {
+    "tag": "v4.15.0",
+    "name": "napcat-docker-v4.15.0-amd64.tar",
+    "bytes": 578273792,
+    "sha256": "sha256:4939972fa1e563a6f8d1cb2a0e64127702d54f42637d43e15572768e0e788084",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.15.0/napcat-docker-v4.15.0-amd64.tar",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.15.0/napcat-docker-v4.15.0-amd64.tar"
+  },
+  {
+    "tag": "v4.15.0",
+    "name": "napcat-docker-v4.15.0-amd64.tar.sha256",
+    "bytes": 98,
+    "sha256": "sha256:6d4eeb4a1a01ecd1c90a5efddd8564e17fa51ae20ba2c0fcda4b0933afecd36d",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.15.0/napcat-docker-v4.15.0-amd64.tar.sha256",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.15.0/napcat-docker-v4.15.0-amd64.tar.sha256"
+  },
+  {
+    "tag": "v4.15.0",
+    "name": "napcat-docker-v4.15.0-arm64.tar",
+    "bytes": 563192320,
+    "sha256": "sha256:af94884ad4f4fa9d61f73a69f6d9d71f38c812d4270cede9bd9caeab58496eec",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.15.0/napcat-docker-v4.15.0-arm64.tar",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.15.0/napcat-docker-v4.15.0-arm64.tar"
+  },
+  {
+    "tag": "v4.15.0",
+    "name": "napcat-docker-v4.15.0-arm64.tar.sha256",
+    "bytes": 98,
+    "sha256": "sha256:c8e0b72180c1e5c19980506f17d74c1d57bafd384c64d7a99a20c0733faa5a07",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.15.0/napcat-docker-v4.15.0-arm64.tar.sha256",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.15.0/napcat-docker-v4.15.0-arm64.tar.sha256"
+  },
+  {
+    "tag": "v4.15.0",
+    "name": "NapCat.Framework.zip",
+    "bytes": 29415736,
+    "sha256": "sha256:2f1be78f2a64f05433d52d838b9ff645a84fbaa5199bc15000f65ff0b283c651",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.15.0/NapCat.Framework.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.15.0/NapCat.Framework.zip"
+  },
+  {
+    "tag": "v4.15.0",
+    "name": "NapCat.Shell.Windows.Node.zip",
+    "bytes": 109085152,
+    "sha256": "sha256:ec4c3ef18845ffb5627c56f9b6b1c93ecb6058320e9a0003d99684762ae26fd2",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.15.0/NapCat.Shell.Windows.Node.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.15.0/NapCat.Shell.Windows.Node.zip"
+  },
+  {
+    "tag": "v4.15.0",
+    "name": "NapCat.Shell.Windows.OneKey.zip",
+    "bytes": 1035630,
+    "sha256": "sha256:fa365537039e9ec29730166f3f624eb147074be18be64d1981a03f35ecb2a2af",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.15.0/NapCat.Shell.Windows.OneKey.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.15.0/NapCat.Shell.Windows.OneKey.zip"
+  },
+  {
+    "tag": "v4.15.0",
+    "name": "NapCat.Shell.zip",
+    "bytes": 28791741,
+    "sha256": "sha256:737a70e8fa8b4e1a803559e06859a9203d099f66afbf28b1553ebb6f14119c2e",
+    "source": "https://github.com/XingYunStar/NapCatQQ/releases/download/v4.15.0/NapCat.Shell.zip",
+    "archive": "https://github.com/lixiao034-prog/NapCatQQ-Archive/releases/download/v4.15.0/NapCat.Shell.zip"
+  }
+]
